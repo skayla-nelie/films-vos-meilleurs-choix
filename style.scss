@@ -1,1 +1,25 @@
 @use 'partials/top-picks';
+@use 'partials/card';
+@use 'partials/variables';
+@use 'partials/mixins/text';
+@use "sass:color";
+$color:#73BA9B;
+$primary: #b9246e;
+
+body {
+    background-color: variables.$primary;
+}
+
+
+
+
+
+.top-picks {
+    background: color.adjust($color, $lightness: 5%);
+
+    &__header {
+        background-color: #a7f8cf;
+        @include text.small-cap;
+    }
+
+}

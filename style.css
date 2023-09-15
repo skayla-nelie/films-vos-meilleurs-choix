@@ -1,0 +1,42 @@
+.top-picks {
+  position: relative;
+  padding: 50px;
+  background: #84c2a7;
+}
+.top-picks__header {
+  border-left: solid 5px #b9246e;
+  padding-left: 20px;
+  background-color: #a7f8cf;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.top-picks__title {
+  margin: 0;
+  font-family: arial;
+}
+.top-picks__desc {
+  opacity: 0.7;
+}
+.top-picks__wrapper {
+  display: flex;
+  margin: 0 -5px;
+}
+
+body {
+  background-color: #b9246e;
+}
+
+.top-picks {
+  background: #84c2a7;
+}
+.top-picks__header {
+  background-color: #a7f8cf;
+  font-size: 10px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */
